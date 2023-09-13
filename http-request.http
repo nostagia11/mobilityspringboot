@@ -1,0 +1,52 @@
+###
+POST http://localhost:8085/offers/saveoffer
+content-Type: application/json
+
+{
+  "name": "mastère pro info",
+  "diplome": "mastère proffessionnelle",
+  "description": "offre une mastère pro en informatique.",
+  "cond": "condition:option ing genie logiciel ",
+  "duree": "6mois",
+  "mobilite": true,
+  "destination": "Toulouse,France",
+  "domaine": "genie logiciel"
+}
+
+<> 2023-08-13T140911.400.html
+<> 2023-08-13T140843.400.html
+<> 2023-08-13T140840.400.html
+<> 2023-08-13T140350.400.html
+<> 2023-08-13T140321.400.html
+<> 2023-08-13T133552.400.html
+<> 2023-08-13T133335.400.html
+<> 2023-08-13T133144.400.html
+<> 2023-08-13T133009.400.html
+<> 2023-08-13T132942.400.html
+<> 2023-08-13T132936.400.html
+<> 2023-08-13T132715.400.html
+<> 2023-08-13T132640.400.html
+
+###
+POST http://localhost:8085/offers/saveoffer
+content-Type: application/json
+{
+}
+
+<> 2023-08-13T141441.400.html
+<> 2023-08-13T141329.400.html
+
+###
+GET http://localhost:8085/offers
+
+<> 2023-08-13T173434.200.json
+
+###
+GET http://localhost:8085/offers/1
+
+<> 2023-08-13T173620.500.json
+
+
+
+###
+PUT http://localhost:8085/offers/1
